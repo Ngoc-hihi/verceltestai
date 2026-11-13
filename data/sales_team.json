@@ -1,0 +1,53 @@
+{
+  "manager": {
+    "id": "MGR-01",
+    "name": "Hoàng Đình Trọng",
+    "title": "Trưởng phòng Kinh doanh B2B",
+    "email": "trong.hd@minhan.com.vn",
+    "phone": "0912.888.999"
+  },
+  "reps": [
+    {
+      "id": "SALES-01",
+      "name": "Nguyễn Văn An",
+      "email": "an.nv@minhan.com.vn",
+      "active_deals_count": 5,
+      "specialty": "Hạ tầng máy chủ & Data Center"
+    },
+    {
+      "id": "SALES-02",
+      "name": "Trần Thị Bình",
+      "email": "binh.tt@minhan.com.vn",
+      "active_deals_count": 3,
+      "specialty": "Thiết bị mạng & WiFi doanh nghiệp"
+    },
+    {
+      "id": "SALES-03",
+      "name": "Lê Hoàng Cường",
+      "email": "cuong.lh@minhan.com.vn",
+      "active_deals_count": 6,
+      "specialty": "Bảo mật & Tường lửa"
+    },
+    {
+      "id": "SALES-04",
+      "name": "Phạm Minh Dũng",
+      "email": "dung.pm@minhan.com.vn",
+      "active_deals_count": 4,
+      "specialty": "Bản quyền phần mềm & Dịch vụ Cloud"
+    },
+    {
+      "id": "SALES-05",
+      "name": "Vũ Phương Dung",
+      "email": "dung.vp@minhan.com.vn",
+      "active_deals_count": 2,
+      "specialty": "Gói giải pháp văn phòng trọn gói"
+    },
+    {
+      "id": "SALES-06",
+      "name": "Đỗ Tuấn Hải",
+      "email": "hai.dt@minhan.com.vn",
+      "active_deals_count": 5,
+      "specialty": "Hệ thống điện nhẹ & UPS"
+    }
+  ]
+}

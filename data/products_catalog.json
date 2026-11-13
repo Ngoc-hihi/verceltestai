@@ -1,0 +1,82 @@
+[
+  {
+    "sku": "SRV-DELL-R750",
+    "name": "Máy chủ Dell PowerEdge R750 (Intel Xeon Silver 4314, 64GB RAM, 2x 960GB SSD)",
+    "category": "Máy chủ & Lưu trữ",
+    "unit": "Bộ",
+    "unit_price": 92000000,
+    "description": "Máy chủ rack 2U tiêu chuẩn doanh nghiệp cho ứng dụng ảo hóa và cơ sở dữ liệu."
+  },
+  {
+    "sku": "SRV-HPE-DL380",
+    "name": "Máy chủ HPE ProLiant DL380 Gen10 Plus",
+    "category": "Máy chủ & Lưu trữ",
+    "unit": "Bộ",
+    "unit_price": 88000000,
+    "description": "Máy chủ rack 2U hiệu năng cao đáp ứng khối lượng công việc mở rộng."
+  },
+  {
+    "sku": "SW-CISCO-C9200L-24P",
+    "name": "Thiết bị chuyển mạch Cisco Catalyst 9200L 24 cổng PoE+",
+    "category": "Thiết bị mạng",
+    "unit": "Chiếc",
+    "unit_price": 31500000,
+    "description": "Switch mạng L3 chuyên dụng cho văn phòng, hỗ trợ PoE cấp nguồn camera/access point."
+  },
+  {
+    "sku": "SW-CISCO-C9200L-48P",
+    "name": "Thiết bị chuyển mạch Cisco Catalyst 9200L 48 cổng PoE+",
+    "category": "Thiết bị mạng",
+    "unit": "Chiếc",
+    "unit_price": 54000000,
+    "description": "Switch mạng 48 cổng tốc độ cao cho hệ thống mạng tòa nhà."
+  },
+  {
+    "sku": "FW-FORTI-60F",
+    "name": "Tường lửa Fortinet FortiGate 60F kèm bản quyền 1 năm UTP",
+    "category": "Bảo mật & Tường lửa",
+    "unit": "Bộ",
+    "unit_price": 24000000,
+    "description": "Next-Generation Firewall bảo vệ an ninh mạng văn phòng 50-100 người dùng."
+  },
+  {
+    "sku": "AP-ARUBA-AP505",
+    "name": "Bộ phát WiFi chuyên dụng Aruba AP-505 (Wi-Fi 6)",
+    "category": "Thiết bị mạng",
+    "unit": "Chiếc",
+    "unit_price": 7200000,
+    "description": "Access point chuẩn Wi-Fi 6 cho mật độ truy cập cao trong doanh nghiệp."
+  },
+  {
+    "sku": "UPS-APC-3KVA",
+    "name": "Bộ lưu điện APC Smart-UPS RT 3000VA On-Line 230V (SRT3000XLI)",
+    "category": "Nguồn & Phụ trợ",
+    "unit": "Chiếc",
+    "unit_price": 36500000,
+    "description": "Bộ lưu điện chuẩn rack bảo vệ an toàn cho phòng server."
+  },
+  {
+    "sku": "LIC-MS-WINSRV-2022",
+    "name": "Bản quyền Microsoft Windows Server 2022 Standard (16 Core)",
+    "category": "Bản quyền phần mềm",
+    "unit": "License",
+    "unit_price": 21500000,
+    "description": "Giấy phép hệ điều hành máy chủ chính hãng Microsoft."
+  },
+  {
+    "sku": "SVC-DEPLOY-BASIC",
+    "name": "Dịch vụ lắp đặt, cấu hình hệ thống mạng & server cơ bản",
+    "category": "Dịch vụ CNTT",
+    "unit": "Gói",
+    "unit_price": 12000000,
+    "description": "Bao gồm lắp rack, bấm cáp, cấu hình IP, phân VLAN và kiểm thử kết nối."
+  },
+  {
+    "sku": "SVC-MIGRATION-ADV",
+    "name": "Dịch vụ chuyển đổi dữ liệu và triển khai ảo hóa VMware/Hyper-V",
+    "category": "Dịch vụ CNTT",
+    "unit": "Gói",
+    "unit_price": 25000000,
+    "description": "Chuyển đổi dữ liệu an toàn, cấu hình backup và failover cho doanh nghiệp."
+  }
+]

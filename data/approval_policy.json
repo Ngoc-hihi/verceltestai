@@ -1,0 +1,22 @@
+{
+  "company_name": "Công ty TNHH Công nghệ Minh An",
+  "vat_rate": 0.1,
+  "sales_rep_limits": {
+    "max_discount_pct": 5.0,
+    "max_deal_value_vnd": 150000000,
+    "can_commit_tight_deadline": false
+  },
+  "sales_manager_limits": {
+    "max_discount_pct": 15.0,
+    "max_deal_value_vnd": 1000000000,
+    "can_approve_rush_delivery": true
+  },
+  "escalation_triggers": {
+    "discount_exceeded": "Đề xuất chiết khấu vượt mức tự quyết của NVKD (> 5%). Cần Trưởng phòng duyệt.",
+    "deal_value_exceeded": "Tổng giá trị hợp đồng vượt quá 150 triệu VNĐ. Cần Trưởng phòng kiểm soát điều khoản thanh toán.",
+    "lead_time_risk": "Thời hạn khách hàng yêu cầu sớm hơn thời gian sẵn sàng của tồn kho và kỹ thuật. Cần duyệt kế hoạch giao hàng đặc biệt.",
+    "budget_overrun": "Giá trị đề xuất vượt quá ngân sách ước tính ban đầu của khách hàng (> 15%). Cần giải pháp tư vấn gói thay thế."
+  },
+  "standard_payment_terms": "Thanh toán tạm ứng 30% khi ký Hợp đồng, 70% còn lại trong vòng 07 ngày sau khi nghiệm thu bàn giao.",
+  "quote_validity_days": 15
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "REQ-001",
+    "channel": "Email",
+    "sender_name": "Lê Mai Hương",
+    "sender_email": "huong.lm@vinacomtech.vn",
+    "company": "Công ty Cổ phần Công nghệ Vinacom",
+    "phone": "0988.123.456",
+    "received_at": "2026-11-11T08:30:00",
+    "raw_content": "Kính gửi Bộ phận Kinh doanh Công ty Minh An,\n\nCông ty chúng tôi đang hoàn thiện hạ tầng mạng cho chi nhánh mới tại Cầu Giấy và cần quý công ty gửi báo giá cho các thiết bị sau:\n1. 02 Chiếc Thiết bị chuyển mạch Cisco Catalyst 9200L 24 cổng PoE+\n2. 05 Bộ phát WiFi chuyên dụng Aruba AP-505 (Wi-Fi 6)\n3. 01 Gói Dịch vụ lắp đặt, cấu hình hệ thống mạng & server cơ bản\n\nNgân sách dự kiến của chúng tôi khoảng 120.000.000 VNĐ. Thời hạn chúng tôi cần hoàn tất nghiệm thu và bàn giao là trong vòng 10 ngày tới.\nNếu được, nhờ quý công ty chiết khấu 5% cho đơn hàng đầu tiên này nhé.\n\nTrân trọng cảm ơn,\nLê Mai Hương - Trưởng phòng IT Vinacom",
+    "test_expected_outcome": "Đầy đủ thông tin, Tồn kho đủ, Trong hạn mức tự quyết NVKD (CK 5%, giá trị ~110tr < 150tr, thời hạn 10 ngày >= leadtime 2 ngày)."
+  },
+  {
+    "id": "REQ-002",
+    "channel": "Email",
+    "sender_name": "Phạm Quang Tuấn",
+    "sender_email": "tuanpq@vietstar-logistics.com",
+    "company": "Vietstar Logistics",
+    "phone": "0904.555.777",
+    "received_at": "2026-11-11T08:45:00",
+    "raw_content": "Chào Minh An,\n\nBên mình sắp mở thêm kho bãi mới nên cần mua một số switch Cisco và máy chủ Dell về chạy phần mềm kho. Nhờ các bạn báo giá tốt nhất cho mình nhé.\nCần triển khai gấp trong tuần tới.\n\nTuấn - Quản trị hệ thống",
+    "test_expected_outcome": "THIẾU THÔNG TIN: Không nêu rõ model máy chủ, switch loại nào, số lượng bao nhiêu chiếc, ngân sách cụ thể. Agent cần kích hoạt nhánh sinh bản nháp email hỏi lại khách hàng."
+  },
+  {
+    "id": "REQ-003",
+    "channel": "Email",
+    "sender_name": "Hoàng Quốc Bảo",
+    "sender_email": "bao.hq@ancuonggroup.vn",
+    "company": "Tập đoàn Xây dựng & Nội thất An Cường",
+    "phone": "0918.234.888",
+    "received_at": "2026-11-11T09:00:00",
+    "raw_content": "Kính gửi Ban Giám đốc & Phòng Kinh doanh Minh An,\n\nAn Cường Group chuẩn bị nâng cấp trung tâm dữ liệu nội bộ. Chúng tôi cần báo giá các hạng mục sau:\n- 02 Bộ Máy chủ Dell PowerEdge R750\n- 01 Bản quyền Microsoft Windows Server 2022 Standard\n- 01 Gói Dịch vụ chuyển đổi dữ liệu và triển khai ảo hóa VMware/Hyper-V\n- 01 Bộ lưu điện APC Smart-UPS RT 3000VA On-Line\n\nThời hạn triển khai dự kiến: trong 25 ngày kể từ ngày ký HĐ.\nDo chúng tôi là đối tác thường niên và đơn hàng lớn, đề nghị Minh An áp dụng mức chiết khấu thương mại 10% trên tổng giá trị đơn hàng. Ngân sách công ty chúng tôi duyệt cho gói này khoảng 250.000.000 VNĐ.\n\nNhờ gửi bản dự thảo hợp đồng và báo giá sớm.\nTrân trọng,\nHoàng Quốc Bảo - Giám đốc Công nghệ Thông tin",
+    "test_expected_outcome": "VƯỢT THẨM QUYỀN: Chiết khấu yêu cầu 10% (vượt mức 5% của NVKD), Tổng giá trị đơn hàng ~260tr (vượt 150tr). Tồn kho có đủ. Agent tự động lập Tờ trình và chuyển Trưởng phòng duyệt."
+  },
+  {
+    "id": "REQ-004",
+    "channel": "Web Form",
+    "sender_name": "Nguyễn Hải Đăng",
+    "sender_email": "dang.nh@galaxyretail.vn",
+    "company": "Chuỗi Bán lẻ Galaxy Retail",
+    "phone": "0977.888.999",
+    "received_at": "2026-11-11T09:15:00",
+    "raw_content": "Yêu cầu từ Website Minh An:\nKhách hàng: Chuỗi Bán lẻ Galaxy Retail\nCần mua: 03 Chiếc Thiết bị chuyển mạch Cisco Catalyst 9200L 48 cổng PoE+\nThời hạn nhận hàng bắt buộc: Trong vòng 5 ngày làm việc tới để kịp khai trương cửa hàng.\nNgân sách: 170.000.000 VNĐ.\nChiết khấu: Tiêu chuẩn công ty",
+    "test_expected_outcome": "RỦI RO THỜI HẠN / HẾT TỒN KHO: Mã hàng Cisco 48 port đang có sẵn = 0 chiếc, thời gian đặt hàng nhập kho cần 15 ngày, trong khi khách yêu cầu 5 ngày. Agent cảnh báo rủi ro tiến độ nghiêm trọng và chuyển Trưởng phòng/Vận hành hỗ trợ giải pháp mượn hàng demo hoặc thay thế."
+  },
+  {
+    "id": "REQ-005",
+    "channel": "Email",
+    "sender_name": "Đặng Thị Thảo",
+    "sender_email": "thao.dt@financehub.com.vn",
+    "company": "Công ty Tài chính FinanceHub",
+    "phone": "0934.112.233",
+    "received_at": "2026-11-11T09:30:00",
+    "raw_content": "Gửi các bạn Sales Minh An,\n\nFinanceHub cần trang bị tường lửa và bảo mật mạng cho phòng giao dịch mới:\n- 01 Bộ Tường lửa Fortinet FortiGate 60F kèm bản quyền 1 năm UTP\n- 02 Chiếc Thiết bị chuyển mạch Cisco Catalyst 9200L 24 cổng PoE+\n- 01 Gói Dịch vụ lắp đặt, cấu hình hệ thống mạng & server cơ bản\n\nThời hạn triển khai: 7 ngày làm việc.\nNgân sách nội bộ: 110.000.000 VNĐ.\nXin đề xuất mức chiết khấu ưu đãi cho khách hàng thân thiết.\n\nCảm ơn,\nĐặng Thị Thảo - Chuyên viên Mua sắm",
+    "test_expected_outcome": "Hợp lệ, tự động tính chiết khấu chuẩn 4%, tạo mã cơ hội, phân công NVKD chuyên trách bảo mật, sinh báo giá ngay lập tức."
+  }
+]

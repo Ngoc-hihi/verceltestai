@@ -1,0 +1,62 @@
+{
+  "SRV-DELL-R750": {
+    "available_qty": 4,
+    "lead_time_days_if_out_of_stock": 14,
+    "location": "Kho Hà Nội",
+    "updated_at": "2026-11-10T18:00:00"
+  },
+  "SRV-HPE-DL380": {
+    "available_qty": 1,
+    "lead_time_days_if_out_of_stock": 21,
+    "location": "Kho Hà Nội",
+    "updated_at": "2026-11-10T18:00:00"
+  },
+  "SW-CISCO-C9200L-24P": {
+    "available_qty": 8,
+    "lead_time_days_if_out_of_stock": 10,
+    "location": "Kho Hà Nội & TP.HCM",
+    "updated_at": "2026-11-10T18:00:00"
+  },
+  "SW-CISCO-C9200L-48P": {
+    "available_qty": 0,
+    "lead_time_days_if_out_of_stock": 15,
+    "location": "Tạm hết hàng",
+    "updated_at": "2026-11-10T18:00:00"
+  },
+  "FW-FORTI-60F": {
+    "available_qty": 6,
+    "lead_time_days_if_out_of_stock": 7,
+    "location": "Kho Hà Nội",
+    "updated_at": "2026-11-10T18:00:00"
+  },
+  "AP-ARUBA-AP505": {
+    "available_qty": 18,
+    "lead_time_days_if_out_of_stock": 7,
+    "location": "Kho Hà Nội",
+    "updated_at": "2026-11-10T18:00:00"
+  },
+  "UPS-APC-3KVA": {
+    "available_qty": 2,
+    "lead_time_days_if_out_of_stock": 12,
+    "location": "Kho Bắc Ninh",
+    "updated_at": "2026-11-10T18:00:00"
+  },
+  "LIC-MS-WINSRV-2022": {
+    "available_qty": 999,
+    "lead_time_days_if_out_of_stock": 1,
+    "location": "License điện tử (ESD)",
+    "updated_at": "2026-11-10T18:00:00"
+  },
+  "SVC-DEPLOY-BASIC": {
+    "available_qty": 999,
+    "lead_time_days_if_out_of_stock": 2,
+    "location": "Đội ngũ Kỹ thuật On-site",
+    "updated_at": "2026-11-10T18:00:00"
+  },
+  "SVC-MIGRATION-ADV": {
+    "available_qty": 999,
+    "lead_time_days_if_out_of_stock": 3,
+    "location": "Chuyên gia Hệ thống",
+    "updated_at": "2026-11-10T18:00:00"
+  }
+}
